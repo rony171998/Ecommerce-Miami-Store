@@ -1,7 +1,7 @@
 {
-  "name": "boundless-mars-template",
+  "name": "ecommerce miami home",
   "version": "1.0.3",
-  "description": "Ready to use Next.js template to create  high-performance e-commerce websites.",
+  "description": "ecommerce",
   "keywords": [
     "boundless",
     "boundless-commerce",
@@ -17,8 +17,8 @@
     "theme"
   ],
   "main": "index.js",
-  "repository": "https://github.com/kirill-zhirnov/boundless-marsfull-nextjs-ecommerce-template",
-  "author": "Kirill Zhirnov <ekvixgroup@gmail.com>",
+  "repository": "h",
+  "author": "diego silva cordoba",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
