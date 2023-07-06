@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce miami home",
+  "name": "ecommerce",
   "version": "1.0.3",
   "description": "ecommerce",
   "keywords": [
@@ -17,7 +17,7 @@
     "theme"
   ],
   "main": "index.js",
-  "repository": "h",
+  "repository": "https://github.com/Diegosilcor/Ecommerce-Miami-Store.git",
   "author": "diego silva cordoba",
   "license": "MIT",
   "scripts": {
