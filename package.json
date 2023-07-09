@@ -17,7 +17,10 @@
     "theme"
   ],
   "main": "index.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "author": "diego silva cordoba",
   "license": "MIT",
   "scripts": {
@@ -86,5 +89,12 @@
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^24.0.0",
     "ts-node": "^10.4.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/Diegosilcor/Ecommerce-Miami-Store/issues"
+  },
+  "homepage": "https://github.com/Diegosilcor/Ecommerce-Miami-Store#readme"
 }
