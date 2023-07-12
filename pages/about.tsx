@@ -8,12 +8,21 @@ export default function ShippingPage({mainMenu, footerMenu}: IPageProps) {
 	return (
 		<MainLayout mainMenu={mainMenu} footerMenu={footerMenu}>
 			<div className={'container-xxl'}>
-				<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Sobre nosotros Miami Home</h1>
+				<h1 className='page-heading page-heading_h1  page-heading_m-h1'>About</h1>
 				<div className='text-container'>
 					<p>
-					Nuestra historia comienza con nuestras propias necesidades. Cuando llegamos a Miami, nos dimos cuenta de que teníamos muy pocas opciones de calidad y productos prácticos. ¿La solución? Traer todo lo que queríamos. Poco a poco, comenzamos a notar que esta carencia era una oportunidad.
-
-          Comenzamos trayendo solo unos pocos artículos, pero a medida que crecíamos, lo mismo hacía nuestra empresa. Hoy en día, Miami Home es el resultado de esta aventura. Estamos agradecidos por el apoyo y la confianza de nuestros clientes, ya que sin ellos, no seríamos la gran empresa que somos hoy.
+						{/* Lorem ipsum dolor sit amet consectetur adipiscing elit semper penatibus purus, neque sodales fames
+						pellentesque luctus fringilla libero dis ornare cursus sociosqu, elementum commodo efficitur mauris dictum
+						tortor per ultricies a. Venenatis turpis eleifend proin a dapibus ullamcorper conubia odio vel, porta nulla
+						gravida habitasse facilisi quisque class non aliquam velit, donec nostra amet ante montes ad varius mauris.
+						Maecenas urna laoreet sociosqu tempus rutrum quis ad diam, habitant morbi augue ornare orci a suscipit faucibus,
+						felis nostra senectus at mollis et gravida. Tempus nulla nec etiam mollis, duis lacinia dictum netus,
+						dignissim mi facilisis. Euismod gravida mollis integer class convallis lacinia ad, elit id pharetra ac
+						bibendum iaculis augue lorem, purus at scelerisque posuere dictumst dis. Risus eleifend maecenas cras ac
+						conubia proin nisl, ultrices mollis sem et molestie dolor facilisis, venenatis neque eget maximus quis per.
+						Ante vehicula interdum pulvinar sodales faucibus, metus dignissim orci habitasse. Id dui in amet vehicula luctus
+						lobortis facilisi gravida dis litora diam sapien eget, tortor semper erat turpis pretium odio tempor porta
+						vestibulum mauris congue. */}
 					</p>
 				</div>
 			</div>
