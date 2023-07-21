@@ -1,5 +1,5 @@
 import CoverTextInCenter from '../../components/CoverTextInCenter';
-import bgImg from '../../assets/cover-bg.jpeg';
+import bgImg from '../../assets/cover-bg.jpg';
 import bgPortraitImg from '../../assets/cover-bg-portrait.jpg';
 
 export default function CoverPage() {

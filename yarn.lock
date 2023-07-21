@@ -1133,10 +1133,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@use-gesture/core@npm:10.2.27":
+  version: 10.2.27
+  resolution: "@use-gesture/core@npm:10.2.27"
+  checksum: 3cc29b93e23597257483e2bb14fa53d322fca9c1e41a50a0d2af78557f4565404e2029c1409cfb49c2fd75096044fe9219914b4ce908f8eb3846ec8404f23b0a
+  languageName: node
+  linkType: hard
+
 "@use-gesture/core@npm:10.2.5":
   version: 10.2.5
   resolution: "@use-gesture/core@npm:10.2.5"
   checksum: 61363937226f28dce56e74c2a2fe05ca5db76eefdc230e953aa6ee5b6bad57cfd235d89f3f6b1856e6f3d51da89ed92e7a8c52a3137ce46c6989426dfae57cf8
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:^10.2.27":
+  version: 10.2.27
+  resolution: "@use-gesture/react@npm:10.2.27"
+  dependencies:
+    "@use-gesture/core": 10.2.27
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 745c835483138eb033953dee285ddece04f236ac82a6897dcf03dd38daeb5335f91e664436ff55e3b449dccb1eadd809fcd7e7d1440c6f82c4e87663bfaadd5f
   languageName: node
   linkType: hard
 
@@ -2070,6 +2088,7 @@ __metadata:
     "@types/react-transition-group": ^4.4.4
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
+    "@use-gesture/react": ^10.2.27
     "@use-gesture/vanilla": ^10.2.5
     animate.css: ^4.1.1
     body-scroll-lock: ^4.0.0-beta.0
@@ -2081,6 +2100,8 @@ __metadata:
     currency.js: ^2.0.4
     eslint: ^8.6.0
     eslint-config-next: ^12.0.7
+    eslint-plugin-next: ^0.0.0
+    eslint-plugin-react-hooks: ^4.6.0
     js-cookie: ^3.0.1
     lodash: ^4.17.21
     next: ^12.2.4
@@ -2331,12 +2352,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-next@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "eslint-plugin-next@npm:0.0.0"
+  checksum: c083aa1c42df347d7940b07916493c0be6f30c5df9c87200827f71c574958d3e1362e1042fd15f9164e63b673cb7ca94491ea3e8318fc1dcbe4f686e9d9166d5
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-react-hooks@npm:^4.3.0":
   version: 4.3.0
   resolution: "eslint-plugin-react-hooks@npm:4.3.0"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
   checksum: 0ba1566ba0780bbc75a5921f49188edf232db2085ab32c8d3889592f0db9d6fadc97fcf639775e0101dec6b5409ca3c803ec44213b90c8bacaf0bdf921871c2e
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-react-hooks@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "eslint-plugin-react-hooks@npm:4.6.0"
+  peerDependencies:
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: 23001801f14c1d16bf0a837ca7970d9dd94e7b560384b41db378b49b6e32dc43d6e2790de1bd737a652a86f81a08d6a91f402525061b47719328f586a57e86c3
   languageName: node
   linkType: hard
 
